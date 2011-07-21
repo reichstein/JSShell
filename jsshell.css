@@ -1,0 +1,111 @@
+/* Colors */
+body, .jsshell-input { 
+  background-color: #fdf6e3;
+  color: #657b83;
+}
+
+body { 
+  font-family: Helvetica, Ariel, sans-serif;
+}
+
+.jsshell-headline { 
+  color: #859900;
+  font-size: 150%;
+}
+
+.jsshell-inputlog { 
+  white-space: pre;
+  font-family: monospace;
+  font-size: 120%;
+}
+
+.jsshell-property { 
+  padding-left: 2ex;
+  display: block;
+}
+
+.jsshell-property:hover { 
+  background-color: #eee8d5;
+}
+
+.jsshell-typename { 
+  color: #93a1a1;
+}
+
+.jsshell-object-key { 
+  float: left;
+  vertical-align: top;
+  padding-right: 0.5ex;
+}
+
+.jsshell-expand,
+.jsshell-collapse { 
+  cursor: pointer;
+  color: #586e75;
+}
+
+.jsshell-expand:hover,
+.jsshell-collapse:hover { 
+  color: #268bd2;
+}
+
+.jsshell-property-value { 
+}
+
+.jsshell-property:hover .jsshell-remove { 
+  color: #dc322f;
+  display: block;
+  cursor: pointer;
+}
+
+.jsshell-property .jsshell-remove { 
+  float: right;
+  display: none;
+  width: 1em;
+  height: 1em;
+}
+
+.jsshell-property-key { 
+  color: #d33682;
+  float: left;
+  margin-left: -2ex;
+  padding-right: 0.5ex;
+}
+
+.jsshell-string { 
+  color: #859900;
+}
+
+.jsshell-input { 
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  border: none;
+  outline: none;
+  font-family: monospace;
+  font-size: 120%;
+  box-shadow: 1px 1px 3px #93a1a1;
+}
+
+.jsshell-input:before { 
+  float: left; 
+  content: ">"; 
+  display: block; 
+}
+
+.jsshell-button { 
+  background-color: #cb4b16;
+  color: #fdf6e3;
+  border: none;
+  margin: 0px 0.5ex;
+  cursor: pointer;
+  border-radius: 0.5em;
+  box-shadow: 1px 1px 3px  #93a1a1;
+  -moz-border-radius: 0.5em;
+  -moz-box-shadow: 1px 1px 3px  #93a1a1;
+}
+
+.jsshell-button:active { 
+  background-color: #859900;
+}
+
